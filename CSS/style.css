@@ -1,0 +1,591 @@
+/* body */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header and background */
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Images/photo.JPG");
+  background-size: cover;
+  font-weight: 400;
+}
+
+
+/* nav bar styles */
+
+#navbarlogo {
+  width: 60px;
+}
+
+.navbar-nav {
+  margin-right: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  padding: 0 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* ----------------header texts---------------- */
+
+
+.headertexth1 {
+  font-size: 8vw;
+  font-family: 'Sacramento', cursive;
+  font-style: italic;
+  font-weight: bold;
+  color: #222222;
+}
+
+.headertexth2 {
+  color: #222222;
+  margin: 10% 0 0 0;
+  margin-left: 0px;
+  font-size: 5vw;
+  font-family: 'Sacramento', cursive;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.headertexth3 {
+  font-size: 1.5vw;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #222222;
+}
+
+.headerhr {
+  border-style: none;
+  border-top-style: groove;
+  border-color: #727878;
+  border-width: 0.15vw;
+  width: 40%;
+  margin-left: 0;
+  opacity: 0.3;
+}
+
+
+/* ----------------animated arrow down---------------- */
+
+.scroll-down {
+  height: 60px;
+  width: 85px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 8%;
+  background-color: #222222;
+  text-align: center;
+  z-index: 6;
+}
+
+.arrow-down {
+  width: 35px;
+  display: block;
+  position: absolute;
+  left: 30%;
+  margin-bottom: 10px;
+  animation-name: arrow-down;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes arrow-down {
+  0% {
+    bottom: 0;
+  }
+
+  50% {
+    bottom: 10px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+
+/* ----------------profile section---------------- */
+
+#profile {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: whitesmoke;
+  padding: 1.25em 11.25em 6.25em 11.25em;
+}
+
+
+.profileh1 {
+  margin: 3% 0 0 0;
+  font-size: 54px;
+  color: #569c8e;
+  margin-bottom: 15px;
+}
+
+.profileh1p {
+  font-size: 15px;
+  color: #727878;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+.profilehr {
+  border-style: none;
+  border-top-style: groove;
+  margin: 40px 0;
+  border-color: #727878;
+  opacity: 0.2;
+}
+
+.profileh3 {
+  color: #569c8e;
+  font-size: 28px;
+  line-height: 1.1;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: left;
+}
+
+.profileh3p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0 0 0px;
+  font-size: 15px;
+  line-height: 1.64;
+  text-align: left;
+}
+
+.profilerow {
+  margin-right: 35px;
+  margin-left: 35px;
+  padding: 0 75px;
+
+}
+
+.profileimg {
+  width: 200px;
+  padding-top: 25px;
+  border-radius: 50%;
+}
+
+/* ----------------resume section---------------- */
+
+#resume {
+  background-color: rgb(243, 239, 224);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 20px 180px 100px 180px;
+}
+
+.resumeh1 {
+  margin: 3% 0 0 0;
+  font-size: 54px;
+  color: #569c8e;
+  margin-bottom: 15px;
+}
+
+
+.resumeh1p {
+  font-size: 15px;
+  color: #727878;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+.resumehr {
+  border-style: none;
+  border-top-style: groove;
+  margin: 40px 0;
+  border-color: #727878;
+  opacity: 0.2;
+}
+
+.resumelogo1 {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.cololmchoser {
+  margin: 0;
+  padding: 0;
+}
+
+.resumerowp1 {
+  text-align: left;
+  font-weight: bolder;
+  margin-bottom: 0;
+  color: #007bb5;
+  font-size: 20px;
+}
+
+.resumerowp2 {
+  text-align: left;
+  margin-bottom: 0;
+  color: #569c8e;
+  font-weight: bold;
+}
+
+.resumerowp3 {
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.resumerowp4 {
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.rowhr {
+  border-style: none;
+  border-top-style: groove;
+  width: 40%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-color: #727878;
+  opacity: 0.2;
+}
+
+
+
+/* ----------------abilities section---------------- */
+
+#abilities {
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 20px 250px 100px 250px;
+}
+
+.abilitiesh1 {
+  margin: 3% 0 0 0;
+  font-size: 54px;
+  color: #569c8e;
+  margin-bottom: 15px;
+}
+
+
+.abilitiesh1p {
+  font-size: 15px;
+  color: #727878;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+.abilitieshr {
+  border-style: none;
+  border-top-style: groove;
+  margin: 40px 0;
+  border-color: #727878;
+  opacity: 0.2;
+}
+
+.abilitiesh3 {
+  text-align: left;
+  font-size: 30px;
+  color: #569c8e;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.abilitiesrowp {
+  color: black;
+  text-align: left;
+  opacity: 0.8;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+.progress {
+  margin: 5px 20px 20px 20px;
+}
+
+.progress-bar {
+  transition: .9s;
+  background-color: none;
+}
+
+.interests .icon-box i {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.interests .row {
+  margin-top: 50px;
+}
+
+.interests h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------contact section---------------- */
+
+#contact {
+  background-color: #434242;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 20px 180px 30px 180px;
+}
+
+.contacth1 {
+  margin: 3% 0 0 0;
+  font-size: 54px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+
+.contacth1p {
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.7;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+.contacthr {
+  border-style: none;
+  border-top-style: groove;
+  margin: 40px 0;
+  border-color: #727878;
+  opacity: 0.8;
+}
+
+.contactp2 {
+  margin: 30px;
+  color: white;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.emailhd {
+  margin-top: 25px;
+}
+
+.email {
+  font-size: 15px;
+  color: white;
+  margin: 50px 0;
+  font-style: italic;
+}
+
+.email:hover {
+  color: whitesmoke;
+  transform: scale(1.1);
+}
+
+
+.fa {
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: none;
+  text-decoration: none;
+  margin: 10px 15px;
+}
+
+.fa:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* .fa-spotify {
+  background: #146E14  ;
+  color: white;
+
+} */
+
+.fa-github {
+  height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* ----------------media ---------------- */
+@media (max-width :900px) {
+
+  .headertexth1 {
+    text-align: center;
+    font-size: 18vw;
+  }
+
+  .headertexth2 {
+    margin-top: 1.4em;
+    text-align: center;
+    font-size: 15vw;
+  }
+
+  .headertexth3 {
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .headerhr {
+    width: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+  /* sections */
+  #profile,
+  #resume,
+  #abilities {
+    padding: 1.1em 0 3em 0;
+    text-align: center;
+  }
+
+  #contact {
+    padding: 1.1em 0 3em 0;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+
+  .contacthr {
+    width: 80%;
+    margin: 40px 10%;
+    opacity: 0.7;
+  }
+
+  #profile .row {
+    padding: 10px 25px;
+  }
+
+  .profileh1,
+  .profileh1p,
+  .profileh3p,
+  .resumerowp1,
+  .resumerowp2,
+  .resumerowp3,
+  .resumerowp4 {
+    text-align: center;
+  }
+
+  .profilehr,
+  .resumehr {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+
+  .profileh3 {
+    text-align: center;
+    margin: 0.7em;
+  }
+
+  .resumeh1 {
+    font-size: 7vw;
+  }
+
+  .resumelogo1 {
+    margin: 10px 0;
+    width: 175px;
+  }
+
+  .profileimg {
+    width: 175px;
+  }
+
+  .rowhr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .emailhd {
+    margin: 15px 0;
+    font-weight: bolder;
+    ;
+  }
+
+  .fas {
+    font-weight: lighter;
+    font-size: 3.5vw;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .fa {
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: none;
+    text-decoration: none;
+    margin: 10px 10px;
+  }
+
+  .fa-github {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+}
+
+/*media section finish */
