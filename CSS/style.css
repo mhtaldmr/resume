@@ -326,7 +326,9 @@ header {
 }
 
 .progress-bar {
-  transition: .9s;
+  transition: .9s;  
+  width: 1px;
+  height: 10px;
   background-color: none;
 }
 
@@ -346,18 +348,6 @@ header {
   opacity: 0.8;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ----------------contact section---------------- */
